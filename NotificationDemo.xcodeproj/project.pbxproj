@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8762DACD212FEC2800C32AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762DACC212FEC2800C32AE9 /* AppDelegate.swift */; };
-		8762DACF212FEC2800C32AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762DACE212FEC2800C32AE9 /* ViewController.swift */; };
+		8762DACF212FEC2800C32AE9 /* ChooseDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762DACE212FEC2800C32AE9 /* ChooseDestinationVC.swift */; };
 		8762DAD2212FEC2800C32AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8762DAD0212FEC2800C32AE9 /* Main.storyboard */; };
 		8762DAD4212FEC2800C32AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8762DAD3212FEC2800C32AE9 /* Assets.xcassets */; };
 		8762DAD7212FEC2800C32AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8762DAD5212FEC2800C32AE9 /* LaunchScreen.storyboard */; };
+		8762DADF212FED6600C32AE9 /* DestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762DADE212FED6600C32AE9 /* DestinationVC.swift */; };
+		8762DAE1212FEDA500C32AE9 /* NotificationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762DAE0212FEDA500C32AE9 /* NotificationFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8762DAC9212FEC2800C32AE9 /* NotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8762DACC212FEC2800C32AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8762DACE212FEC2800C32AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8762DACE212FEC2800C32AE9 /* ChooseDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDestinationVC.swift; sourceTree = "<group>"; };
 		8762DAD1212FEC2800C32AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8762DAD3212FEC2800C32AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8762DAD6212FEC2800C32AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8762DAD8212FEC2800C32AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8762DADE212FED6600C32AE9 /* DestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationVC.swift; sourceTree = "<group>"; };
+		8762DAE0212FEDA500C32AE9 /* NotificationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				8762DACC212FEC2800C32AE9 /* AppDelegate.swift */,
-				8762DACE212FEC2800C32AE9 /* ViewController.swift */,
+				8762DACE212FEC2800C32AE9 /* ChooseDestinationVC.swift */,
+				8762DADE212FED6600C32AE9 /* DestinationVC.swift */,
+				8762DAE0212FEDA500C32AE9 /* NotificationFile.swift */,
 				8762DAD0212FEC2800C32AE9 /* Main.storyboard */,
 				8762DAD3212FEC2800C32AE9 /* Assets.xcassets */,
 				8762DAD5212FEC2800C32AE9 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8762DACF212FEC2800C32AE9 /* ViewController.swift in Sources */,
+				8762DAE1212FEDA500C32AE9 /* NotificationFile.swift in Sources */,
+				8762DADF212FED6600C32AE9 /* DestinationVC.swift in Sources */,
+				8762DACF212FEC2800C32AE9 /* ChooseDestinationVC.swift in Sources */,
 				8762DACD212FEC2800C32AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
